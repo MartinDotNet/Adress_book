@@ -1,0 +1,17 @@
+C:\DotNetSchool\CSharp\Adress_Book\bin\Debug\net8.0\Adress_Book.exe
+C:\DotNetSchool\CSharp\Adress_Book\bin\Debug\net8.0\Adress_Book.deps.json
+C:\DotNetSchool\CSharp\Adress_Book\bin\Debug\net8.0\Adress_Book.runtimeconfig.json
+C:\DotNetSchool\CSharp\Adress_Book\bin\Debug\net8.0\Adress_Book.dll
+C:\DotNetSchool\CSharp\Adress_Book\bin\Debug\net8.0\Adress_Book.pdb
+C:\DotNetSchool\CSharp\Adress_Book\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\DotNetSchool\CSharp\Adress_Book\obj\Debug\net8.0\Adress_Book.csproj.AssemblyReference.cache
+C:\DotNetSchool\CSharp\Adress_Book\obj\Debug\net8.0\Adress_Book.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNetSchool\CSharp\Adress_Book\obj\Debug\net8.0\Adress_Book.AssemblyInfoInputs.cache
+C:\DotNetSchool\CSharp\Adress_Book\obj\Debug\net8.0\Adress_Book.AssemblyInfo.cs
+C:\DotNetSchool\CSharp\Adress_Book\obj\Debug\net8.0\Adress_Book.csproj.CoreCompileInputs.cache
+C:\DotNetSchool\CSharp\Adress_Book\obj\Debug\net8.0\Adress_Book.csproj.CopyComplete
+C:\DotNetSchool\CSharp\Adress_Book\obj\Debug\net8.0\Adress_Book.dll
+C:\DotNetSchool\CSharp\Adress_Book\obj\Debug\net8.0\refint\Adress_Book.dll
+C:\DotNetSchool\CSharp\Adress_Book\obj\Debug\net8.0\Adress_Book.pdb
+C:\DotNetSchool\CSharp\Adress_Book\obj\Debug\net8.0\Adress_Book.genruntimeconfig.cache
+C:\DotNetSchool\CSharp\Adress_Book\obj\Debug\net8.0\ref\Adress_Book.dll

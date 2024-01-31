@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u2Un1Jn1/i2oSADeSXeKF/+p5WTK/bv1evUrAvWZ8ibDsasSFokP7TUDoGTIZkejNSjT9y+O7PgoK9gemam9gg==",
+  "success": true,
+  "projectFilePath": "C:\\DotNetSchool\\CSharp\\Adress_Book\\Adress_Book.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zethi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
