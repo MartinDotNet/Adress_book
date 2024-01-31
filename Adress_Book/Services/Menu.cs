@@ -17,6 +17,7 @@ namespace Adress_Book.Services
             Console.WriteLine("4. Remove Person");
         }
 
+        // Inputen för menyn, felmedelande om annat än 1-4 anges.
         public int GetUserChoice()
         {
             Console.Write("Enter your choice: ");

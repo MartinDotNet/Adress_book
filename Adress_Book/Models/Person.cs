@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+// Person classen 
 namespace Adress_Book.Models
 {
     public interface IPerson

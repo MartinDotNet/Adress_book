@@ -1,5 +1,4 @@
 ﻿
-
 using System.Diagnostics;
 
 
@@ -14,7 +13,7 @@ public interface IFileManager
 
 }
 
-
+// FileManager är min filhanteringsclass, med Streamwriter och StreamReader laddar jag och sparar jag min json fil. Sökvägen till filen anges i AdressService
 public class FileManager(string filePath) : IFileManager
 {
         private readonly string _filePath = filePath;

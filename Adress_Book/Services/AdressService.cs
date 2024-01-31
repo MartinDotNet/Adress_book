@@ -11,9 +11,11 @@ namespace Adress_Book.Services;
 
 public class AdressService
 {
+    // Här initierar jag min sökväg till filen, måste bytas för ny användare.
     private readonly FileManager _fileManager = new FileManager(@"C:\DotNetSchool\CSharp\Adress_Book\adresses.json");
     private List<Person> _adressList = new List<Person>();
 
+    // Här laddar jag upp filen, om den inte är tom kommer den deserialize och läggas i listan. 
     public void LoadAdresses()
     {
         try
@@ -27,6 +29,7 @@ public class AdressService
         catch (Exception ex) { Debug.WriteLine(ex.Message); }
     }
 
+    // Input för att skapa en ny användare
     public void GetUserInputForPerson()
     {
         Person person = new Person();
@@ -39,7 +42,7 @@ public class AdressService
 
         AddPerson(person);
     }
-
+    // En input metod som underlättar då jag har inputs på många ställen, Den går bara vidare om något anges i inputen. Trimmar även bort whitespace om det finns.
     public string GetInput(string prompt)
     {
         string input;
@@ -53,6 +56,7 @@ public class AdressService
         return input;
     }
 
+    // Lägger till användare i listan och sparar listan i filen. Kollar först så att användarens email inte redan är registrerad
     public bool AddPerson(Person person)
     {
         try
@@ -75,6 +79,7 @@ public class AdressService
 
     }
 
+    // Letar i listan efter användaren. gjorde en toLower på både inputen och sökresultatet så de kan söka med stora eller små bokstäver och ändå matcha.
     public void FindPerson(string email)
     {
         try
@@ -96,6 +101,7 @@ public class AdressService
         catch (Exception ex) { Debug.WriteLine(ex.Message); }
     }
 
+    // Liknande findperson fast tar bort resultatet istället för att visa det.
     public void RemovePerson(string email) 
     {
         try
@@ -107,6 +113,7 @@ public class AdressService
         catch (Exception ex) { Debug.WriteLine(ex.Message); }
     }
 
+    // loopar igenom listan och visar alla adresserna.
     public void DisplayAddressList()
     {
         Console.WriteLine("Address List:");
